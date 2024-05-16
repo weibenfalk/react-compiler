@@ -1,0 +1,25 @@
+{
+  "name": "react-ts-memory",
+  "version": "0.0.0",
+  "scripts": {
+    "prepare": "panda codegen",
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "serve": "vite preview"
+  },
+  "dependencies": {
+    "@vitejs/plugin-react": "^4.2.1",
+    "babel-plugin-react-compiler": "^0.0.0-experimental-c23de8d-20240515",
+    "eslint-plugin-react-compiler": "^0.0.0-experimental-53bb89e-20240515",
+    "react": "^19.0.0-beta-26f2496093-20240514",
+    "react-dom": "^19.0.0-beta-26f2496093-20240514"
+  },
+  "devDependencies": {
+    "@pandacss/dev": "^0.39.1",
+    "@types/react": "^18.2.20",
+    "@types/react-dom": "^18.2.7",
+    "@types/styled-components": "^5.1.26",
+    "typescript": "^5.1.6",
+    "vite": "^5.2.11"
+  }
+}
